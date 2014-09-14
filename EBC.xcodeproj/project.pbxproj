@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34A0C8119C3310900F63EAA /* EBCTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34A0C8019C3310900F63EAA /* EBCTests-Info.plist */; };
 		FC2FD09418D4DC4D00ACE9C7 /* statsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2FD09318D4DC4D00ACE9C7 /* statsViewController.m */; };
 		FC57CF7718C9F472009F8E58 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC57CF7518C9F472009F8E58 /* Model.xcdatamodeld */; };
 		FC57CF7918C9F570009F8E58 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57CF7818C9F570009F8E58 /* CoreData.framework */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C34A0C8019C3310900F63EAA /* EBCTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EBCTests-Info.plist"; sourceTree = "<group>"; };
 		FC2FD09218D4DC4D00ACE9C7 /* statsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statsViewController.h; path = ../statsViewController.h; sourceTree = "<group>"; };
 		FC2FD09318D4DC4D00ACE9C7 /* statsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statsViewController.m; path = ../statsViewController.m; sourceTree = "<group>"; };
 		FC57CF7618C9F472009F8E58 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -135,9 +137,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34A0C7F19C330B800F63EAA /* EBCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34A0C8019C3310900F63EAA /* EBCTests-Info.plist */,
+			);
+			path = EBCTests;
+			sourceTree = "<group>";
+		};
 		FC80E5B018C6072A00239DFE = {
 			isa = PBXGroup;
 			children = (
+				C34A0C7F19C330B800F63EAA /* EBCTests */,
 				FCCA567818D799F2009451F3 /* Default.png */,
 				FCDCBE5118D6633F00CA1D4C /* Icon_58.png */,
 				FCDCBE4F18D6628B00CA1D4C /* Icon_120.png */,
@@ -329,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34A0C8119C3310900F63EAA /* EBCTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -486,6 +499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
