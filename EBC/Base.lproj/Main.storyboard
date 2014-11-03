@@ -122,7 +122,7 @@
                                     <action selector="endbeginedit:" destination="tAC-Co-LvN" eventType="editingDidBegin" id="97P-u6-grI"/>
                                 </connections>
                             </textField>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="B1A-8g-Wa2">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="B1A-8g-Wa2">
                                 <rect key="frame" x="0.0" y="154" width="320" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="415632758.040093">
                                     <!--2014-03-04 13:32:38 +0000-->
@@ -274,7 +274,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EeL-pl-5Md">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EeL-pl-5Md">
                                 <rect key="frame" x="0.0" y="162" width="320" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="415713560.70206499">
                                     <!--2014-03-05 11:59:20 +0000-->
